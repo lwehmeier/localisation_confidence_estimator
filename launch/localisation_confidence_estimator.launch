@@ -1,0 +1,8 @@
+<!-- Starts up everything needed to run the example listener/talker Python nodes. -->
+
+<launch>
+  <node pkg="localisation_confidence_estimator" type="confidence_estimator.py" name="localisation_confidence_estimator">
+    <param name="rate" value="2"/>
+  </node>
+
+</launch>

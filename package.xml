@@ -1,0 +1,24 @@
+<package format="2">
+  <name>localisation_confidence_estimator</name>
+  <version>0.0.1</version>
+  <description>
+    Publishers and subscribers that use the parameter server, dynamic
+    reconfigure, timers, and custom messages. Examples for Python and C++ are
+    included.
+  </description>
+  <author>Leon Wehmeier</author>
+  <maintainer email="leon@magic-smoke.org">Leon Wehmeier</maintainer>
+  <license>BSD</license>
+  <url>https://github.com/lwehmeier/</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>roscpp</depend>
+  <depend>rosgraph_msgs</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+</package>
